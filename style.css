@@ -1,0 +1,226 @@
+.ilustration {
+    width: 296px;
+    height: 209px;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.footer {
+    margin-left: 136px;
+    margin-right: 135.86px;
+    display:flex;
+    gap: 10.86px;
+}
+
+.face {
+    width: 27.14px;
+    height: 28px;
+    filter: invert(100%);
+
+}
+
+.face:hover {
+    filter: invert(55%) sepia(91%) saturate(2904%) hue-rotate(293deg) brightness(99%) contrast(104%);
+}
+
+.twitter {
+    width: 27.14px;
+    height: 28px;
+    filter: invert(100%);
+}
+
+.twitter:hover {
+    filter: invert(55%) sepia(91%) saturate(2904%) hue-rotate(293deg) brightness(99%) contrast(104%);
+}
+
+.insta {
+    width: 27.14px;
+    height: 28px;
+    filter: invert(100%);
+}
+.insta:hover {
+    filter: invert(55%) sepia(91%) saturate(2904%) hue-rotate(293deg) brightness(99%) contrast(104%);
+}
+
+.container {
+    width: 375px;
+    height: 800px;
+    background-color: #684BB1;
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfirst {
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.textsecond {
+    color:#fff;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+
+.desktopversion {
+    display: none;
+    color:#fff;
+    margin-bottom: 24px;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.btn {
+    color: #684BB1;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 64px;
+    margin-left: 88px;
+    margin-right: 87px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+
+.btn:hover {
+    background-color: #E880E8;
+}
+
+.logo {
+    width: 120px;
+    height: 36px;
+    margin: 38.2px 215px 67.9px 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width: 680px) {
+    .container {
+        width: 1440px;
+        height: 800px;
+        background-image: url(/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 59px;
+    }
+
+    .ilustration {
+        width: 696px;
+        height: 493px;
+    }
+
+    .textfirst {
+        font-size: 40px;
+        line-height: 60px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .desktopversion {
+        display: block;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .textsecond {
+        display:none;
+    }
+
+    .btn {
+        width: 200px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 27px;
+        margin: 0;
+        border-radius: 28px;
+    }
+
+    .btn:hover {
+        background-color: #E880E8;
+    }
+
+    .face {
+        width :40px;
+        height: 40px;
+    }
+
+    
+
+    .twitter {
+        width :40px;
+        height: 40px;
+    }
+
+    .insta {
+        width :40px;
+        height: 40px;
+        
+    }
+
+    .footer {
+        position: relative;
+        justify-content: right;
+        right: 80px;
+        bottom: -22px;
+        display: flex;
+        gap: 16px;
+        margin: 0;
+    }
+
+    .logo {
+        position: relative;
+        left: 45px;
+        height: 48px;
+        width: 200px;
+        
+    }
+
+    .text {
+        position: relative;
+        top: -88px;
+    }
+
+    
+    }
